@@ -1,0 +1,37 @@
+#title{
+  font-family: 'Comfortaa', cursive;
+}
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(73, 73, 73) ;
+  width: 400px;
+}
+
+body{
+  background-color: rgb(21, 18, 22);
+}
+.center{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h2{
+  color: rgb(92, 0, 92);
+}
+.box1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.backgroundcolor{
+  background-color: orange;
+}
+.white{
+  color: white;
+}
+.rosa{
+  color: red;
+}
