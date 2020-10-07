@@ -8,6 +8,7 @@
   background-color: rgb(73, 73, 73) ;
   width: 400px;
   border-radius: 15px;
+  box-shadow: 5px 5px 5px;
 }
 
 body{
