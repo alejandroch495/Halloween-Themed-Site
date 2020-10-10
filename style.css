@@ -1,5 +1,8 @@
 #title{
   font-family: 'Comfortaa', cursive;
+  padding: 50px;
+  font-size: 10vh;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 }
 .box{
@@ -9,31 +12,40 @@
   flex-wrap: wrap;
   justify-content: center;
   background-color: rgb(73, 73, 73) ;
-  padding: 5px;
+  padding: 0px;
   width: 400px;
   border-radius: 15px;
   box-shadow: 5px 5px 5px;
 }
 .box1{
+ 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   background-color: rgb(73, 73, 73) ;
-  width: 50%;
-  height: 50%;
-  border-radius: 15px;
+  width: 60vw;
+  height: ;
+  border-style: outset;
+  border-radius: 20px;
+  border-width: 5px;
   box-shadow: 5px 5px 5px;
+  margin: 50px;
 }
-.box2{
+.box2
+{
+   margin-top: 10%;
   display: flex;
-  flex-wrap: wrap;
+  background-color: rgba(54, 54, 54, 0.5);
+  width: 70%;
   justify-content: center;
-  background-color: rgb(73, 73, 73) ;
-  width: 50%;
-  height: 50%;
-  border-radius: 15px;
-  box-shadow: 5px 5px 5px;
-}
+  align-items: center;
+  border-style:outset;
+  border-width: 10px;
+  border-color: rgba(114, 114, 114, 0.5);
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 10px 5px 15px #000;
+  }
 
 #topleft{
   justify-content: left ;
@@ -42,7 +54,7 @@
 body{
   background-color: rgb(21, 18, 22);
 }
-.center{
+#center{
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -68,7 +80,7 @@ h2{
   color: red;
 }
 h1{
-  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  text-shadow: 0 0 3px rgb(85, 53, 53), 0 0 5px rgb(28, 28, 65);
 }
 h3{
   color: rgb(92, 0, 92);
@@ -78,7 +90,8 @@ h3{
   font-size: 55px;
 }
 p{
-      font-color: blue;
-      font-size: 12pt;
+      color:#000.9
+      font-size: 15pt;
       text-shadow: 5px 5px 5px purple;
 }
+.center
