@@ -3,7 +3,9 @@
 }
 }
 .box{
+
   display: flex;
+  position:absolute;
   flex-wrap: wrap;
   justify-content: center;
   background-color: rgb(73, 73, 73) ;
