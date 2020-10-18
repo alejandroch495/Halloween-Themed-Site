@@ -1,0 +1,7 @@
+header{
+    display:grid;
+    grid-template-columns: minmax(150px, 50%) 1fr;
+    padding:15px;
+    background-color: #474747;
+    color:white;  
+    font-size: 3vw; }

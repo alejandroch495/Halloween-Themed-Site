@@ -1,11 +1,14 @@
-body 
+
+
+  body 
 {
-  margin: 0;
-  padding: 0;
+
 }
-.container{
+.container
+{
   position: relevtive;
-  width: 100%;
+  width: 3fr ;
+  margin: 20%;
 }
 .container .section
 { 
@@ -14,9 +17,9 @@ body
   border-color: rgb(126, 126, 126);
   padding-bottom:500px;
   position:sticky;
-  top: 0px;
+  top: 10vh;
   width: 100%;
-  height: 50vh;
+  height: 100vh;
   background: #000;
 }
 .container .section:nth-child(1)
@@ -35,12 +38,13 @@ body
 {
   background: url(images/spooky_pumpkins.jpg);
   background-size: cover;
-  padding-bottom: -500px;
-  }
+  
+}
 .container .section:nth-child(4)
 {
   background: url(images/candy.jpg);
   background-size: cover;
+  padding-bottom: -500px;
 }
 .container .section:nth-child(5)
 {
@@ -54,4 +58,26 @@ body
   border-bottom-left-radius:50px;
   border-bottom-right-radius: 50px; 
   margin-bottom: -500px;
+}
+
+
+.parent {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    }
+header {
+    padding: 4rem;
+    grid-column: 1 / 4;
+}
+.leftSideBar {
+    padding: minmax(15px, 20%);
+    grid-column: 1 / 2;
+}
+#centerContainer {
+
+    grid-column: 2 / 3;
+}
+.rightSideBar {
+    padding:minmax(15px, 20%);
+    grid-column: 3 / 4;
 }
