@@ -1,7 +1,79 @@
+
 header{
     display:grid;
-    grid-template-columns: minmax(150px, 50%) 1fr;
+    grid-gap: 5px;
+    position: fixed;
+    height: 25px;
+    width:auto;
+    justify-self: center;
+    grid-template: 1fr / auto minmax(0px, 25vw) auto;
     padding:15px;
-    background-color: #474747;
+    background-color:rgba(81, 81, 81, 0.9);
     color:white;  
-    font-size: 3vw; }
+    border-bottom-left-radius: 5px ;
+    border-bottom-right-radius: 5px ;
+    }
+    
+navBar{
+    height: 20px;
+    padding:5px;
+    font-size: 18px;
+    border-radius: 5px;
+}    
+
+header>navBar>a{
+    background-color: rgba(58, 48, 94, 90%);
+    width:auto;
+    height: 20px;
+    padding:3px;
+    font-size: 18px;
+    color:rgb(124,124,124);
+    text-decoration: none;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 5px;
+} 
+navBar#title{
+    display:flex;
+    justify-content: center;
+    font-family: 'Comfortaa', cursive;
+    box-shadow: 1px 1px 3px black;
+    background-color: rgba(58, 48, 94, 90%);
+    color: rgb(102, 102, 102);
+}
+navBar#links{
+    grid-gap:3px;
+    display: grid;
+    grid-template: auto / auto auto auto auto auto auto;
+}
+
+
+left-sidebar {
+  background: lightblue;
+  grid-column: 1 / 2;
+}
+
+main {
+  background: coral;
+  grid-column: 2 / 3;
+}
+
+right-sidebar {
+  background: yellow;
+  grid-column: 3 / 4;
+}
+
+footer {
+  background: wheat;
+  padding: 2rem;
+  text-align: center;
+  grid-column: 1 / 4;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+left-sidebar,
+right-sidebar {
+  padding: 1rem;
+}
