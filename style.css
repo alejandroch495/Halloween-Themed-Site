@@ -1,2 +1,26 @@
+body{
+/*     display:grid;
+    grid-template: auto 200vh/ auto;
+    background-color: darkgray; */
+}
 
+body {
+  display: grid;
+  height: 100vh;
+  grid-template: auto 1fr auto / auto 1fr auto
+}
 
+main>div>p{
+  padding: 5px;
+  color: white
+}
+
+main>div>div>h1{
+  display:flex;
+  justify-content: center;
+
+}
+main>div>a{
+    text-decoration: none;
+    color: black;
+}
